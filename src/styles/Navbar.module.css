@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:wght@400&family=Montserrat:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+
+.navbar {
+  font-family: 'Merriweather', serif;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0); /* Initially transparent */
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.navbar.scrolled {
+  background-color: #FF7043; /* Change to desired color when scrolled */
+}
+
+.navbody {
+  padding: 0 5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  background: url("../assets/Logo.png");
+ 
+  background-size: cover;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 2rem;
+  padding: 2.5rem;
+}
+
+.hlinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.hlinks ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.hlinks li {
+  font-family: 'Merriweather', serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+.hlinks li a {
+  font-family: 'Merriweather', serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  text-decoration: none;
+  color: inherit; 
+}
+
+
+.hlinks li:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  color:orange;
+}
+
+
+
+.menuIcon {
+  display: none; 
+}
+
+@media (max-width: 768px) {
+  .navbody {
+    padding: 0 1.5rem; 
+  }
+
+  .menuIcon {
+    display: block; 
+    cursor: pointer;
+  }
+
+  .hlinks {
+    display: none; 
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    background-color: #FFAB91;
+    width: 50%; 
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.3s ease;
+    max-height: 0; 
+  }
+
+  .hlinks.active {
+    display: flex; 
+    max-height: 500px;
+  }
+
+  .hlinks ul {
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .hlinks li {
+    text-align: center;
+  }
+}
+
+.searchBar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.searchInput {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #FF7043;
+}
+
+.searchButton {
+  background-color: #FF7043;
+  border: none;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  color: white;
+}
+
+.searchButton:hover {
+  background-color: darkorange;
+}
+
+.searchButton:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .searchBar {
+    display: none; /* Hide search bar on smaller screens */
+  }
+}
+
+/* Navbar.module.css */
+
+.addToCartButton {
+  background-color:rgba(0, 0, 0, 0); /* Button background color */
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  
+  font-size: 1.5rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  display: flex;
+  justify-content: center;
+  
+}
+.addToCartButton p{
+  padding:0 0.5rem ;
+
+  margin: 0.5rem 0.5rem;
+  
+}
+.addToCartButton p:nth-child(2){
+  padding:0 0.5rem ;
+  border-radius: 50%;
+  margin: 0.5rem 0.5rem;
+  background-color: orangered;
+}
+.addToCartButton:hover {
+  color:darkorange; 
+}
