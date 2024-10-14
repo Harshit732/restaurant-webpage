@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:wght@400&family=Montserrat:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+.main {
+    background-color: #FF7043;
+    color: #fff;
+    padding: 2rem 0 0;
+   
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 10rem; 
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.logo, .contacts, .quicklinks, .socialMedia {
+    flex-basis: 15%; 
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.newletter {
+    flex-basis: 26%; 
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.contacts h2,
+.quicklinks h2,
+.socialMedia h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Merriweather', serif;
+    border-bottom: 2px solid white; /* 2px */
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.1rem; 
+}
+.newletter h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Merriweather', serif;
+     
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.1rem; 
+}
+
+.contacts p,
+.quicklinks p,
+.newletter p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contacts p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    text-align: left;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.contacts .icon {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.contacts p:hover{
+    transform: scale(1.05); 
+    color: orange; 
+   
+}
+
+.quicklinks p {
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.quicklinks p:hover {
+    transform: scale(1.05); 
+    color: orange; 
+    text-decoration: underline;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.socialIcons a {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socialIcons a:hover {
+    transform: scale(1.05); 
+    color: orange; 
+}
+
+.newletter input[type="email"] {
+    padding: 0.5rem;
+    border: 2px solid #fff; 
+    border-radius:5px;
+    margin-bottom:1rem;
+    background-color: #fff;
+    font-size: 1.2rem;
+    font-style: "Roboto";
+    color: #333;
+}
+
+.newletter button {
+    padding:1rem 1rem;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius:5px;
+    font-style: "Roboto";
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.newletter button:hover {
+    background-color: #ffb347; /* Subtle hover color */
+}
+
+.copyright {
+   
+    font-size: 1rem;
+    text-align: center;
+    background-color: #FF5722;
+    padding: 1rem 0;
+    font-style: "Roboto";
+    width: 100%;
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+}

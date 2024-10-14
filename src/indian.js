@@ -1,81 +1,83 @@
+import indian from "./assets/indianfood.jpg";
+
 const indianMenu = [
   {
     name: "Butter Naan",
-    imagesrc: butterNaan,
+    imagesrc: indian,
     description:
-      "A soft, fluffy flatbread brushed with melted butter, served alongside curries. The slightly charred edges add a delightful smoky flavor.",
+      "Soft, fluffy flatbread brushed with butter, perfect for curries.",
     price: 60,
     rating: 4.8,
   },
   {
     name: "Paneer Butter Masala",
-    imagesrc: paneerButterMasala,
+    imagesrc: indian,
     description:
-      "Cubes of paneer cooked in a rich, creamy tomato gravy with aromatic spices. This vegetarian favorite is best enjoyed with naan or rice.",
+      "Paneer cubes in creamy tomato gravy with spices. Perfect with naan.",
     price: 300,
     rating: 4.9,
   },
   {
     name: "Chole Bhature",
-    imagesrc: choleBhature,
+    imagesrc: indian,
     description:
-      "Spicy chickpea curry served with deep-fried fluffy bread, commonly known as bhature. A hearty and fulfilling North Indian dish.",
+      "Spicy chickpea curry with deep-fried bhature. A North Indian classic.",
     price: 250,
     rating: 4.7,
   },
   {
     name: "Rajma Chawal",
-    imagesrc: rajmaChawal,
+    imagesrc: indian,
     description:
-      "A comforting dish of red kidney beans cooked in a flavorful tomato gravy, served over a bed of steamed basmati rice.",
+      "Red kidney beans in tomato gravy, served with steamed basmati rice.",
     price: 180,
     rating: 4.6,
   },
   {
     name: "Masala Dosa",
-    imagesrc: masalaDosa,
+    imagesrc: indian,
     description:
-      "A thin, crispy dosa filled with a spiced potato mixture, served with coconut chutney and tangy sambar.",
+      "Crispy dosa filled with spiced potatoes, served with chutney and sambar.",
     price: 120,
     rating: 4.9,
   },
   {
     name: "Hyderabadi Biryani",
-    imagesrc: hyderabadiBiryani,
+    imagesrc: indian,
     description:
-      "A fragrant, layered rice dish cooked with spices and marinated chicken, served with a side of cooling raita.",
+      "Fragrant biryani with marinated chicken and spices. Served with raita.",
     price: 350,
     rating: 4.8,
   },
   {
     name: "Tandoori Roti",
-    imagesrc: tandooriRoti,
+    imagesrc: indian,
     description:
-      "Traditional whole-wheat flatbread baked in a tandoor, perfect to pair with rich, spicy curries.",
+      "Whole-wheat flatbread baked in tandoor, pairs well with spicy curries.",
     price: 40,
     rating: 4.5,
   },
   {
     name: "Samosa Chaat",
-    imagesrc: samosaChaat,
+    imagesrc: indian,
     description:
-      "Crispy samosa broken into pieces and topped with tangy yogurt, spicy chutneys, and crunchy sev. A street food favorite!",
+      "Crispy samosa topped with yogurt, chutneys, and sev. Street food delight.",
     price: 150,
     rating: 4.7,
   },
   {
     name: "Gulab Jamun",
-    imagesrc: gulabJamun,
+    imagesrc: indian,
     description:
-      "Soft, fried dumplings soaked in a sweet, rose-flavored syrup. A must-have dessert for every Indian occasion.",
+      "Soft dumplings soaked in rose-flavored syrup. A classic Indian dessert.",
     price: 100,
     rating: 4.8,
   },
   {
     name: "Rasgulla",
-    imagesrc: rasgulla,
+    imagesrc: indian,
     description:
-      "Spongy and soft, these round sweets are made from chenna and soaked in sugar syrup. A delightful treat to satisfy your sweet tooth.",
+      "Spongy sweets soaked in sugar syrup, made from chenna. Sweet delight.",
     price: 90,
     rating: 4.7,
   },

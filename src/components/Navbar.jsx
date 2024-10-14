@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
 import { useCart } from "../CartProvider"; 
 import { FaShoppingCart } from "react-icons/fa";
-import logo from "../assets/Logo.png";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,13 +36,13 @@ const Navbar = () => {
     }
   };
 
-  // Add scroll event listener to detect when user scrolls
+  
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setIsScrolled(true); // Apply new background color after 50px scroll
+        setIsScrolled(true); 
       } else {
-        setIsScrolled(false); // Reset to original color if scrolled back up
+        setIsScrolled(false); 
       }
     };
 
@@ -90,9 +90,11 @@ const Navbar = () => {
               <Link to={"/menu/vegetarian"}>Menu</Link>
             </li>
             <li>
-              <ScrollLink to="about-section" smooth={true} duration={500}>
+             
+             <ScrollLink to="about-section" smooth={true} duration={500}>
+             <Link to={"/"} style={{ textDecoration: "none", color: "inherit" }}>
                 About Us
-              </ScrollLink>
+             </Link> </ScrollLink>
             </li>
             <li>
             <Link

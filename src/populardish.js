@@ -15,14 +15,7 @@ import chickenSalad from "./assets/vegetableChickenSalad.jpg";
 import vegsalad from "./assets/VegSalad.jpg";
 
 const menu = [
-  {
-    name: "Cake",
-    imagesrc: cake,
-    description:
-      "Vanilla cake layered with cream and topped with fresh seasonal fruits.",
-    price: 300,
-    rating: 4.7,
-  },
+  
   {
     name: "Jalebi",
     imagesrc: Jalebi,
@@ -126,6 +119,14 @@ const menu = [
       "Grilled chicken with crunchy vegetables in tangy, a light, nutritious meal.",
     price: 350,
     rating: 4.5,
+  },
+  {
+    name: "Cake",
+    imagesrc: cake,
+    description:
+      "Vanilla cake layered with cream and topped with fresh seasonal fruits.",
+    price: 300,
+    rating: 4.7,
   },
 ];
 

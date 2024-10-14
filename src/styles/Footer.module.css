@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:wght@400&family=Montserrat:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
 .footer {
     background-color: #FF7043;
-    padding-top: 2rem;
+    
     color: white;
+    padding-top: 2rem;
     text-align: center;
   }
   
   .container {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    gap: 2rem;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 4rem;
     flex-wrap: wrap;
   }
   
@@ -27,12 +30,16 @@
   
   .info p {
     margin: 0.5rem 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
   }
-  
+  .contact{
+    margin: 1rem 0;
+  }
   .contact p {
     margin: 0.5rem 0;
     font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
   }
   
   .icon {
@@ -40,13 +47,15 @@
   }
   
   .links {
-    flex: 1;
+   
     padding: 1rem;
   }
   
   .links h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    font-family: 'Merriweather', serif;
   }
   
   .links ul {
@@ -55,39 +64,114 @@
   }
   
   .links ul li {
-    margin: 0.5rem 0;
+    margin: 1rem 0;
   }
   
   .links ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
   }
   
   .links ul li a:hover {
     text-decoration: underline;
   }
+ 
+  .items{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .cuisinename {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.3s ease; /* Added color transition */
+    border-right: 2px solid white;
+    text-align: left;
+    padding-right: 1rem;
+}
+
+.items a:nth-child(5) .cuisinename {
+  border-right: none;
+}
+
+
+.cuisinename:hover {
+    transform: scale(1.05); 
+    color: orangered; 
+    text-decoration: underline; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cuisinename {
+        font-size: 1.2rem; /* Adjust size for smaller screens */
+        padding-right: 0.5rem; /* Less padding on smaller screens */
+    }
+}
+
+  .circularButton {
+    width: 4rem; /* Adjust size as needed */
+    height: 4rem;
+    border-radius: 12px;
+
+   
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    color: white; /* Text color for better readability */
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: solid 1px white;
+    cursor: pointer;
+    margin: 0.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow to the text */
+    transition: transform 0.3s ease;
+  }
+  
+  .circularButton:hover {
+    transform: scale(1.1);
+    opacity: 0.9; /* Slight transparency on hover */
+  }
+  
+  
+  
   
   .social {
     flex: 1;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
   }
   
   .social h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-family: 'Merriweather', serif;
   }
   
   .socialIcons {
+    margin-top: 2.5rem;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
   }
   
   .socialIcons a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     transition: color 0.3s;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .socialIcons a:hover {
@@ -99,16 +183,20 @@
   }
   
   .newsletter h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+
   }
   
   .subscribeForm {
     display: flex;
     justify-content: center;
-    
+    font-family: 'Montserrat', sans-serif;
     margin-top: 1rem;
   }
+  
   
   .emailInput {
     padding: 0.8rem;
@@ -116,11 +204,12 @@
     border: none;
     border-radius: 4px;
     width: 250px;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .subscribeButton {
     background-color: #FF5722;
-    color: #333;
+    color: white;
     padding: 0.8rem 1rem;
     font-size: 1.2rem;
     border: none;

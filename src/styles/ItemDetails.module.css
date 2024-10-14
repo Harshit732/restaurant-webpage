@@ -1,0 +1,137 @@
+.container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 2rem;
+    background-color:#ef6237;
+    gap: 30px;
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
+    overflow: hidden;
+    max-width: 80rem; 
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); 
+}
+
+.imageContainer {
+    flex: 1; 
+    padding-top: 1rem;
+    height: 35rem;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-right: 3px solid #ef6237; 
+}
+
+
+
+.content {
+    flex: 1; 
+    padding: 25px;
+}
+
+.content h1 {
+    font-size: 2.5rem; /* Larger heading */
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1.2rem; /* Slightly larger description */
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 1.8rem; /* Larger price heading */
+    color: #ef6237;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+textarea:focus {
+    border-color: #ef6237;
+    outline: none;
+}
+
+.servings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+.servings button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #ef6237;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.servings button:hover {
+    background-color: #ff9f82;
+}
+
+.servings span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.orderButton {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #ef6237;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.orderButton:hover {
+    background-color: #ff9f82;
+    transform: scale(1.05);
+}

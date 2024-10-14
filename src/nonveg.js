@@ -1,82 +1,82 @@
-import thali from "./assets/thali.png";
+import chicken from "./assets/nonvegfood.jpg";
 const nonVegMenu = [
   {
     name: "Chicken Tikka",
-    imagesrc: thali,
+    imagesrc: chicken,
     description:
-      "Juicy chunks of chicken marinated in yogurt and spices, grilled to perfection. Served with mint chutney.",
+      "Grilled chicken chunks marinated in yogurt and spices, served with chutney.",
     price: 300,
     rating: 4.9,
   },
   {
     name: "Fish Curry",
-    imagesrc: thali,
+    imagesrc: chicken,
     description:
-      "Tender pieces of fish cooked in a tangy and spiced tomato-based curry. Best enjoyed with rice.",
+      "Fish pieces cooked in a tangy, spiced curry, best with rice.",
     price: 400,
     rating: 4.8,
   },
   {
     name: "Mutton Biryani",
-    imagesrc: thali,
+    imagesrc: chicken,
     description:
-      "A fragrant rice dish layered with tender pieces of mutton, cooked with aromatic spices and herbs.",
+      "Fragrant rice layered with tender mutton, cooked with spices and herbs.",
     price: 450,
     rating: 4.9,
   },
   {
     name: "Prawn Masala",
-    imagesrc: thali,
+    imagesrc: chicken,
     description:
-      "Succulent prawns cooked in a rich, spicy tomato gravy with a hint of coconut.",
+      "Prawns cooked in a spicy tomato gravy with a hint of coconut.",
     price: 350,
     rating: 4.7,
   },
   {
     name: "Egg Curry",
-    imagesrc: thali,
+    imagesrc: chicken,
     description:
-      "Hard-boiled eggs cooked in a spiced onion and tomato gravy. A simple yet satisfying dish.",
+      "Boiled eggs in a spiced onion-tomato gravy. Simple and satisfying.",
     price: 220,
     rating: 4.6,
   },
   {
     name: "Chicken Korma",
-    imagesrc: thali,
+    imagesrc: chicken,
     description:
-      "A mild, creamy chicken curry cooked with ground nuts, cream, and aromatic spices.",
+      "Mild chicken curry with ground nuts, cream, and aromatic spices.",
     price: 380,
     rating: 4.8,
   },
   {
-    name: "Mutton Rogan Josh",
-    imagesrc: thali,
+    name: "Rogan Josh",
+    imagesrc: chicken,
     description:
-      "Tender mutton pieces cooked in a rich, red curry flavored with Kashmiri spices.",
+      "Mutton cooked in rich, red curry flavored with Kashmiri spices.",
     price: 500,
     rating: 4.9,
   },
   {
     name: "Tandoori Chicken",
-    imagesrc: thali,
+    imagesrc: chicken,
     description:
-      "Chicken marinated in yogurt and spices, cooked in a tandoor for a smoky, charred flavor.",
+      "Chicken marinated in yogurt and spices, tandoor-cooked for a smoky flavor.",
     price: 320,
     rating: 4.8,
   },
   {
     name: "Chicken Shawarma",
-    imagesrc: thali,
+    imagesrc: chicken,
     description:
-      "Grilled chicken wrapped in a soft pita with vegetables and a garlicky sauce.",
+      "Grilled chicken in pita with vegetables and garlicky sauce.",
     price: 250,
     rating: 4.5,
   },
   {
-    name: "Lamb Seekh Kebab",
-    imagesrc: thali,
+    name: "Seekh Kebab",
+    imagesrc: chicken,
     description:
-      "Ground lamb mixed with spices and grilled on skewers. Served with onions and a squeeze of lemon.",
+      "Ground lamb mixed with spices, grilled on skewers, served with lemon.",
     price: 350,
     rating: 4.7,
   },
