@@ -1,81 +1,83 @@
+import chinese from "./assets/chinesefood.jpg";
+
 const chineseMenu = [
   {
     name: "Chow Mein",
-    imagesrc: chowMein,
+    imagesrc: chinese,
     description:
-      "Stir-fried noodles with vegetables and soy sauce, a classic Chinese dish with a balance of textures and flavors.",
+      "Stir-fried noodles with vegetables and soy sauce, with textures and flavors.",
     price: 180,
     rating: 4.4,
   },
   {
     name: "Spring Rolls",
-    imagesrc: springRolls,
+    imagesrc: chinese,
     description:
-      "Crispy, golden rolls stuffed with seasoned vegetables. Served with sweet and spicy dipping sauce.",
+      "Crispy golden rolls filled with vegetables, served with a spicy-sweet sauce.",
     price: 120,
     rating: 4.5,
   },
   {
     name: "Manchurian",
-    imagesrc: manchurian,
+    imagesrc: chinese,
     description:
-      "Deep-fried vegetable balls in a spicy and tangy soy-based sauce. A fusion favorite loved by many.",
+      "Deep-fried vegetable balls in a spicy soy-based sauce, a fusion favorite.",
     price: 200,
     rating: 4.7,
   },
   {
     name: "Fried Rice",
-    imagesrc: friedRice,
+    imagesrc: chinese,
     description:
-      "Stir-fried rice with vegetables, soy sauce, and a hint of garlic. A simple yet flavorful dish.",
+      "Stir-fried rice with vegetables and soy sauce, offering a simple, flavorful dish.",
     price: 150,
     rating: 4.6,
   },
   {
     name: "Sweet and Sour Chicken",
-    imagesrc: sweetSourChicken,
+    imagesrc: chinese,
     description:
-      "Crispy fried chicken tossed in a sweet and tangy sauce with bell peppers and pineapples.",
+      "Crispy chicken tossed in sweet and tangy sauce with bell peppers.",
     price: 280,
     rating: 4.8,
   },
   {
     name: "Hakka Noodles",
-    imagesrc: hakkaNoodles,
+    imagesrc: chinese,
     description:
-      "Thin noodles stir-fried with vegetables and soy sauce, offering a mildly spiced flavor.",
+      "Thin stir-fried noodles with vegetables and soy sauce, mild yet flavorful.",
     price: 190,
     rating: 4.6,
   },
   {
     name: "Hot and Sour Soup",
-    imagesrc: hotSourSoup,
+    imagesrc: chinese,
     description:
-      "A spicy and tangy soup loaded with vegetables, tofu, and mushrooms. A great way to start your meal.",
+      "A spicy, tangy soup with vegetables, tofu, and mushrooms, a hearty starter.",
     price: 120,
     rating: 4.7,
   },
   {
     name: "Dim Sum",
-    imagesrc: dimSum,
+    imagesrc: chinese,
     description:
-      "Steamed dumplings stuffed with a variety of fillings such as vegetables or chicken. Served with soy dipping sauce.",
+      "Steamed dumplings with various fillings, served with a savory soy dipping sauce.",
     price: 250,
     rating: 4.9,
   },
   {
     name: "Kung Pao Chicken",
-    imagesrc: kungPaoChicken,
+    imagesrc: chinese,
     description:
-      "Spicy stir-fried chicken with peanuts, vegetables, and a flavorful sauce. A Szechuan dish with a kick of heat.",
+      "Spicy stir-fried chicken with peanuts and vegetables in a bold Szechuan sauce.",
     price: 300,
     rating: 4.8,
   },
   {
     name: "Schezwan Fried Rice",
-    imagesrc: schezwanFriedRice,
+    imagesrc: chinese,
     description:
-      "Spicy fried rice tossed in schezwan sauce with mixed vegetables. Perfect for those who love a spicy twist.",
+      "Spicy fried rice tossed in schezwan sauce with mixed vegetables for spice lovers.",
     price: 180,
     rating: 4.6,
   },

@@ -13,7 +13,6 @@ const cuisines = [
   { name: "Non-Vegetarian", path: "/menu/non-vegetarian", image: nonveg },
   { name: "Chinese", path: "/menu/chinese", image: chinese},
   { name: "Indian", path: "/menu/indian", image: indian },
-  
 ];
 
 function Cuisine() {
@@ -25,7 +24,7 @@ function Cuisine() {
           <Link to={cuisine.path} key={cuisine.name} className={styles.cuisineLink}>
             <div
               className={styles.cuisineCircle}
-              style={{ backgroundImage: `url(${cuisine.image})` } }
+              style={{ backgroundImage: `url(${cuisine.image})` }}
             >
               <h2>{cuisine.name}</h2>
             </div>

@@ -5,23 +5,22 @@ import Menu from "./pages/Menu";
 import Description from "./pages/Description";
 import Footer from "./components/Footer";
 import { CartProvider } from "./CartProvider";
+import FooterSection from "./components/FooterSection";
 
 function App() {
   return (
-    <>
     <CartProvider>
-    <BrowserRouter>
+      <BrowserRouter>
         <Navbar />
         <Routes>
-            <Route path="/" element={<Home />} />            
-            <Route path="/menu/:name" element={<Menu />} />
-            <Route path='/description/' element={<Description/>}/>
-          </Routes>
-          <Footer/>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu/:name" element={<Menu />} />
+          <Route path="/description" element={<Description />} />
+        </Routes>
+       
+        <FooterSection/>
       </BrowserRouter>
     </CartProvider>
-     
-    </>
   );
 }
 
